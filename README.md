@@ -10,4 +10,4 @@ I use it with Firebases own function: **"Resize Images"**
 - User exists in Firestore.
 
 **Updates Firestore:**
-- If the resized image matches the current photo_url, it updates the user’s document with a smaller photo_url_small.
+- If the resized image matches the current photo_url, it updates the user’s document with the field photo_url_small and puts the image there..
